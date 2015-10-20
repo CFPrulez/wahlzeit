@@ -1,7 +1,5 @@
 package org.wahlzeit.model;
 
-import java.util.DoubleSummaryStatistics;
-
 /**
  * Coordinate.java
  *
