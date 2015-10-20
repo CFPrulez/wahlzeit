@@ -55,8 +55,8 @@ public class Coordinate {
 
     public double distanceInMeter(double longitude, double latitude) {
         // https://en.wikipedia.org/wiki/Haversine_formula
-        double radianLat = Math.toRadians(latitudeDistance(latitude));
         double radianLon = Math.toRadians(longitudeDistance(longitude));
+        double radianLat = Math.toRadians(latitudeDistance(latitude));
 
         double a = Math.sin(radianLat / 2) * Math.sin(radianLat / 2) +
                 Math.cos(Math.toRadians(this.latitude)) * Math.cos(Math.toRadians(latitude)) * Math.sin(radianLon / 2) *
